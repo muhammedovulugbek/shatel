@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$h-color: rgba(195, 34, 143, 1);
+$text: rgba(61, 61, 61, 1);
+$font: "Montserrat";
+font .wrapper {
+  overflow: hidden;
+
+  .container {
+    max-width: 1560px;
+    margin: 20px auto;
+  }
+}
+.header {
+  .ulli {
+    display: flex;
+    gap: 50px;
+    .link {
+      list-style: none;
+      .atims {
+        text-decoration: none;
+        counter-reset: $text;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22.5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+font .wrapper {
+  overflow: hidden;
+}
+font .wrapper .container {
+  max-width: 1560px;
+  margin: 20px auto;
+}
+
+.header .ulli {
+  display: flex;
+  gap: 50px;
+}
+.header .ulli .link {
+  list-style: none;
+}
+.header .ulli .link .atims {
+  text-decoration: none;
+  counter-reset: rgb(61, 61, 61);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22.5px;
+}/*# sourceMappingURL=style.css.map */
